@@ -9,6 +9,7 @@ import {
 
 const ScoreView = props => {
   const {score} = props
+  console.log(score)
   return (
     <ScoreContainer>
       <ScoreNameContainer>
